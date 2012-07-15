@@ -22,7 +22,7 @@ string getErrorMessage(int errorID) {
 				  128,
 				  NULL);
 	return string(r);
-}
+}ss
 
 string getUserFromHost(string hostname) {
     return hostname.substr(hostname[0] == ':' ? 1 : 0, hostname.find('!')-1);
